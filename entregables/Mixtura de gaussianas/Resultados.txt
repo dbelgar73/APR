@@ -1,0 +1,250 @@
+Testing K=1, rc=0
+Results: etr=5.48, edv=5.37
+Testing K=1, rc=1
+Results: etr=11.66, edv=11.65
+Testing K=1, rc=0.1
+Results: etr=5.78, edv=5.78
+Testing K=1, rc=0.01
+Results: etr=5.40, edv=5.18
+Testing K=1, rc=0.001
+Results: etr=5.47, edv=5.37
+Testing K=2, rc=0
+Results: etr=4.51, edv=4.67
+Testing K=2, rc=1
+Results: etr=10.12, edv=9.89
+Testing K=2, rc=0.1
+Results: etr=4.66, edv=4.69
+Testing K=2, rc=0.01
+Results: etr=4.33, edv=4.52
+Testing K=2, rc=0.001
+Results: etr=4.48, edv=4.62
+Testing K=3, rc=0
+Results: etr=3.98, edv=4.29
+Testing K=3, rc=1
+Results: etr=9.56, edv=9.44
+            ...
+            ...
+            ...
+Results: etr=2.13, edv=2.83
+Testing K=9, rc=0.001
+Results: etr=2.28, edv=2.93
+Testing K=10, rc=0
+Results: etr=2.13, edv=2.84
+Testing K=10, rc=1
+Results: etr=9.11, edv=9.11
+Testing K=10, rc=0.1
+Results: etr=2.32, edv=3.22
+Testing K=10, rc=0.01
+Results: etr=1.94, edv=2.85
+Testing K=10, rc=0.001
+Results: etr=2.04, edv=2.88
+Mejor combinación de parámetros:
+  K      rc   etr   edv
+  9 1.0e-02  2.13  2.83
+
+
+
+(vsc) H:\Documentos\.UPV\4t\APR\Práctica 1. Optimización>python exp02.py train-images-idx3-ubyte.pca20.npz train-labels-idx1-ubyte.pca20.npz 80 20
+  K      rc   etr   edv
+--- ------- ----- -----
+ 17 1.0e-01  1.75  2.55
+
+
+
+
+
+
+
+
+ ###############################################
+ Testing K=10, rc=1e-05
+Results: etr=2.13, edv=2.83
+Testing K=10, rc=1e-06
+Results: etr=2.13, edv=2.84
+Testing K=10, rc=1e-07
+Results: etr=2.13, edv=2.84
+Testing K=11, rc=0
+Results: etr=1.89, edv=2.89
+Testing K=11, rc=1
+Results: etr=9.09, edv=9.12
+Testing K=11, rc=0.1
+Results: etr=2.28, edv=3.02
+Testing K=11, rc=0.01
+Results: etr=1.79, edv=2.57
+Testing K=11, rc=0.001
+Results: etr=1.78, edv=2.83
+Testing K=11, rc=0.0001
+Results: etr=1.83, edv=2.86
+Testing K=11, rc=1e-05
+Results: etr=1.88, edv=2.90
+Testing K=11, rc=1e-06
+Results: etr=1.88, edv=2.89
+Testing K=11, rc=1e-07
+Results: etr=1.89, edv=2.89
+Testing K=12, rc=0
+Results: etr=1.80, edv=2.77
+Testing K=12, rc=1
+Results: etr=9.09, edv=9.09
+Testing K=12, rc=0.1
+Results: etr=2.16, edv=2.85
+Testing K=12, rc=0.01
+Results: etr=1.72, edv=2.52
+Testing K=12, rc=0.001
+Results: etr=1.76, edv=2.62
+Testing K=12, rc=0.0001
+Results: etr=1.79, edv=2.71
+Testing K=12, rc=1e-05
+Results: etr=1.78, edv=2.75
+Testing K=12, rc=1e-06
+Results: etr=1.80, edv=2.77
+Testing K=12, rc=1e-07
+Results: etr=1.80, edv=2.77
+Testing K=13, rc=0
+Results: etr=1.76, edv=2.87
+Testing K=13, rc=1
+Results: etr=9.09, edv=9.07
+Testing K=13, rc=0.1
+Results: etr=2.08, edv=2.86
+Testing K=13, rc=0.01
+Results: etr=1.60, edv=2.56
+Testing K=13, rc=0.001
+Results: etr=1.66, edv=2.82
+Testing K=13, rc=0.0001
+Results: etr=1.75, edv=2.83
+Testing K=13, rc=1e-05
+Results: etr=1.77, edv=2.85
+Testing K=13, rc=1e-06
+Results: etr=1.76, edv=2.85
+Testing K=13, rc=1e-07
+Results: etr=1.76, edv=2.87
+Testing K=14, rc=0
+Results: etr=1.66, edv=2.67
+Testing K=14, rc=1
+Results: etr=9.07, edv=9.04
+Testing K=14, rc=0.1
+Results: etr=1.94, edv=2.94
+Testing K=14, rc=0.01
+Results: etr=1.54, edv=2.50
+Testing K=14, rc=0.001
+Results: etr=1.61, edv=2.71
+Testing K=14, rc=0.0001
+Results: etr=1.66, edv=2.73
+Testing K=14, rc=1e-05
+Results: etr=1.65, edv=2.70
+Testing K=14, rc=1e-06
+Results: etr=1.66, edv=2.67
+Testing K=14, rc=1e-07
+Results: etr=1.66, edv=2.67
+Testing K=15, rc=0
+Results: etr=1.51, edv=2.83
+Testing K=15, rc=1
+Results: etr=9.06, edv=9.04
+Testing K=15, rc=0.1
+Results: etr=1.78, edv=2.79
+Testing K=15, rc=0.01
+Results: etr=1.33, edv=2.57
+Testing K=15, rc=0.001
+Results: etr=1.44, edv=2.86
+Testing K=15, rc=0.0001
+Results: etr=1.49, edv=2.82
+Testing K=15, rc=1e-05
+Results: etr=1.50, edv=2.84
+Testing K=15, rc=1e-06
+Results: etr=1.51, edv=2.83
+Testing K=15, rc=1e-07
+Results: etr=1.51, edv=2.83
+Testing K=16, rc=0
+Results: etr=1.44, edv=2.85
+Testing K=16, rc=1
+Results: etr=9.02, edv=9.09
+Testing K=16, rc=0.1
+Results: etr=1.79, edv=2.73
+Testing K=16, rc=0.01
+Results: etr=1.35, edv=2.69
+Testing K=16, rc=0.001
+Results: etr=1.42, edv=2.73
+Testing K=16, rc=0.0001
+Results: etr=1.46, edv=2.91
+Testing K=16, rc=1e-05
+Results: etr=1.42, edv=2.85
+Testing K=16, rc=1e-06
+Results: etr=1.44, edv=2.85
+Testing K=16, rc=1e-07
+Results: etr=1.44, edv=2.85
+Testing K=17, rc=0
+Results: etr=1.34, edv=2.90
+Testing K=17, rc=1
+Results: etr=9.03, edv=9.07
+Testing K=17, rc=0.1
+Results: etr=1.75, edv=2.55
+Testing K=17, rc=0.01
+Results: etr=1.23, edv=2.37
+Testing K=17, rc=0.001
+Results: etr=1.28, edv=2.71
+Testing K=17, rc=0.0001
+Results: etr=1.33, edv=2.83
+Testing K=17, rc=1e-05
+Results: etr=1.33, edv=2.88
+Testing K=17, rc=1e-06
+Results: etr=1.34, edv=2.88
+Testing K=17, rc=1e-07
+Results: etr=1.34, edv=2.90
+Testing K=18, rc=0
+Results: etr=1.37, edv=2.85
+Testing K=18, rc=1
+Results: etr=9.04, edv=9.12
+Testing K=18, rc=0.1
+Results: etr=1.69, edv=2.61
+Testing K=18, rc=0.01
+Results: etr=1.22, edv=2.45
+Testing K=18, rc=0.001
+Results: etr=1.30, edv=2.87
+Testing K=18, rc=0.0001
+Results: etr=1.34, edv=2.80
+Testing K=18, rc=1e-05
+Results: etr=1.37, edv=2.85
+Testing K=18, rc=1e-06
+Results: etr=1.37, edv=2.84
+Testing K=18, rc=1e-07
+Results: etr=1.37, edv=2.85
+Testing K=19, rc=0
+Results: etr=1.19, edv=2.55
+Testing K=19, rc=1
+Results: etr=8.98, edv=9.08
+Testing K=19, rc=0.1
+Results: etr=1.58, edv=2.44
+Testing K=19, rc=0.01
+Results: etr=1.21, edv=2.39
+Testing K=19, rc=0.001
+Results: etr=1.16, edv=2.57
+Testing K=19, rc=0.0001
+Results: etr=1.16, edv=2.57
+Testing K=19, rc=1e-05
+Results: etr=1.20, edv=2.53
+Testing K=19, rc=1e-06
+Results: etr=1.18, edv=2.57
+Testing K=19, rc=1e-07
+Results: etr=1.19, edv=2.55
+Testing K=20, rc=0
+Results: etr=1.28, edv=2.64
+Testing K=20, rc=1
+Results: etr=9.01, edv=9.03
+Testing K=20, rc=0.1
+Results: etr=1.64, edv=2.53
+Testing K=20, rc=0.01
+Results: etr=1.19, edv=2.41
+Testing K=20, rc=0.001
+Results: etr=1.26, edv=2.51
+Testing K=20, rc=0.0001
+Results: etr=1.26, edv=2.60
+Testing K=20, rc=1e-05
+Results: etr=1.29, edv=2.64
+Testing K=20, rc=1e-06
+Results: etr=1.27, edv=2.65
+Testing K=20, rc=1e-07
+Results: etr=1.28, edv=2.64
+Mejor combinación de parámetros:
+  K      rc   etr   edv
+ 17 1.0e-02  1.23  2.37
+
+ Mejor Combinacion K=17, rc=0.01
